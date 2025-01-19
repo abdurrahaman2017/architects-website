@@ -108,4 +108,24 @@
     width: 100%;
 }
 
+@media screen and (max-width:576px) {
+    .header{
+        padding: 20px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+    }
+
+    .nav-link{
+        padding:0.2rem;
+    }
+    .nav-links > ul{
+        margin-top: 20px;
+    }
+
+    .banner-container{
+        margin-top:-40px;
+    }
+
 /* nav bar code style end here */
