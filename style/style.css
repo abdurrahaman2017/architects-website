@@ -360,5 +360,14 @@ main > section{
     cursor: pointer;
 }
 
+
+@media screen and (max-width:576px) {
+    .sponsor-container{
+        grid-template-columns:1fr;
+        gap: 50px;
+        text-align: center;
+    }
+    
+}
 /* sponsor section code style end here */
 
