@@ -325,6 +325,22 @@ main > section{
 }
 
 
+@media screen and (max-width:576px) {
+    .some-facts-container{
+        grid-template-columns: 1fr;
+        gap: 20px; 
+    }
+    .some-facts-container{
+        margin-left: 40px;
+    }
+
+    .some-facts-title,
+    .some-facts-description{
+        padding-left: 40px;
+    }
+}
+
+
 
 /* some facts section code end here */
 
