@@ -281,3 +281,50 @@ main > section{
 
 /* features love ejony section code style end here */
 
+
+/* some facts section code start here */
+.some-facts-title{
+    font-size:2.80rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.some-facts-description{
+    font-size: 1rem;
+    margin-bottom: 70px;
+}
+
+.some-facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.some-facts-single-container{
+    border: 2px solid #FF900E;
+    margin-right:50px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.some-facts-single-container:hover{
+    border: 2px solid green;
+    transition: 0.5s;
+}
+
+.some-facts-single-container > h5{
+    font-size:2.80rem;
+    font-weight: 600px;
+}
+
+.some-facts-single-container > p{
+    font-size: 1.25rem;
+    font-weight: 600px;
+}
+
+
+
+/* some facts section code end here */
+
