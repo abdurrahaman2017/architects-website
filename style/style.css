@@ -190,8 +190,10 @@ main > section{
 
 
 /* features section code style end here */
+
+/* features love ejony section code style satrt here */
 .features-love-enjoy-section{
-    gap: 54px;
+    gap: 140px;
 }
 
 .features-love-enjoy-content-container-title{
@@ -232,31 +234,25 @@ main > section{
     margin-bottom:20px;
 }
 
-.features-love-enjoy-img-container{
-    position: relative;
-}
-
-.features-love-enjoy-img-content{
+.features-love-enjoy-img-container-btn{
     border: 2px solid #FF900E;
     background-color: #FF900E;
     color: aliceblue;
-    display: inline-block;
-    position: absolute;
-    top:800px;
-    left: -40px;
     padding: 25px;
     border-radius: 10px;
+    margin-top: -100px;
+    margin-left: -100px;
 }
 
 .features-love-enjoy-img-content-title{
-    font-size:3.5rem;
+    font-size:3rem;
     font-weight: bold;
 }
 .features-love-enjoy-img{
     width: 40.25rem;
 }
 
-.features-love-enjoy-img > img{
+.features-love-enjoy-img-container > img{
     width: 100%;
 }
 
@@ -264,4 +260,24 @@ main > section{
     font-size: 1.50rem;
     font-weight: 700px;
 }
-/* features love and enjoy section code style start here */
+
+@media screen and (max-width:576px) {
+    .features-love-enjoy-section{
+        flex-direction: column;
+    }
+
+    .features-love-enjoy-img-container-btn{
+    margin: 20px;
+    }
+
+    .features-love-enjoy-img-content-title{
+        font-size: 1.5rem;
+    }
+
+    .features-love-enjoy-img-content-description{
+        font-size: 0.8rem;
+    }
+}
+
+/* features love ejony section code style end here */
+
