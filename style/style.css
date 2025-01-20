@@ -371,3 +371,28 @@ main > section{
 }
 /* sponsor section code style end here */
 
+
+/* footer code style start here */
+.footer{
+    width: 1500px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 150px auto 150px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.footer > span{
+    color: #FF900E;
+}
+
+
+@media screen and (max-width:576px) {
+    .footer{
+        width:90%;
+        margin: 20px;
+    }
+}
+
+/* footer code style end here */
+
